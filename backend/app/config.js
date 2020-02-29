@@ -1,0 +1,17 @@
+const MS_IN_SECOND = 1000
+const MS_IN_MINUTE = MS_IN_SECOND * 60
+const MS_IN_HOUR = MS_IN_MINUTE * 60
+const MS_IN_DAY = MS_IN_HOUR * 24
+
+const REFRESH_RATE = 5
+
+const STARTING_BALANCE = 50
+
+module.exports = {
+  MS_IN_SECOND,
+  MS_IN_MINUTE,
+  MS_IN_HOUR,
+  MS_IN_DAY,
+  REFRESH_RATE,
+  STARTING_BALANCE
+}
